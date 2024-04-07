@@ -22,7 +22,7 @@ output:  some string match the regexp format
 ## Instruction of the code
 <br>
 1. let us observe the main function roughly
-<br>
+
 ```cpp
 int main(int argc, char **argv)
 {
