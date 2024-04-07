@@ -7,7 +7,7 @@ Compiles to NFA and then simulates NFA
 <br>
 using Thompson's algorithm
 
-[reference](https://swtch.com/~rsc/regexp/regexp1.html)
+[reference:  https://swtch.com/~rsc/regexp/regexp1.html](https://swtch.com/~rsc/regexp/regexp1.html)
 
 ## How to run
 only for linux environment:
@@ -21,7 +21,7 @@ output:  some string match the regexp format
 
 ## Instruction of the code
 <br>
-1. let us observe the main function roughly
+let us observe the code logic through main
 
 ```cpp
 int main(int argc, char **argv)
@@ -78,4 +78,3 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-
