@@ -295,7 +295,8 @@ startlist(State *start, List *l)
     return l;
 }
 
-int ismatch(List *l)
+int 
+ismatch(List *l)
 {
     int i;
 
@@ -309,7 +310,8 @@ int ismatch(List *l)
     return 0;
 }
 
-void addstate(List *l, State *s)
+void 
+addstate(List *l, State *s)
 {
     if (s == NULL || s->lastList == listid)
     {
@@ -327,7 +329,8 @@ void addstate(List *l, State *s)
     l->s[l->n++] = s;
 }
 
-void step(List *clist, int c, List *nlist)
+void 
+step(List *clist, int c, List *nlist)
 {
     int i;
     State *s;
@@ -344,7 +347,8 @@ void step(List *clist, int c, List *nlist)
     }
 }
 
-int match(State *start, char *s)
+int 
+match(State *start, char *s)
 {
     int i, c;
     List *clist, *nlist, *tmp;
